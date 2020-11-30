@@ -29,7 +29,7 @@ class DoublyLinkedList:
         itr = last_node
         llstr = ''
         while itr:
-            llstr += itr.data + '-->'
+            llstr += str(itr.data) + '-->'
             itr = itr.prev
         print("Link list in reverse: ", llstr)
 
