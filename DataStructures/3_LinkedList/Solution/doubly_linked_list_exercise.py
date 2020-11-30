@@ -51,7 +51,6 @@ class DoublyLinkedList:
 
     def insert_at_begining(self, data):
         node = Node(data, self.head, None)
-        self.head.prev = node
         self.head = node
 
     def insert_at_end(self, data):
